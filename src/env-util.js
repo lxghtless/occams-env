@@ -8,7 +8,7 @@ const envIsValid = envar =>
 		process.env[envar] !== ''
 	);
 
-const dotEnvAsJson = () => camelcaseKeys(dotenv.config().parsed);
+const dotEnvAsJson = () => camelcaseKeys(dotenv.config().parsed || {});
 
 const envsAsJson = () => {
 	const envs = {};
