@@ -21,7 +21,9 @@
   },
   "files": [
     "src",
-    "bin"
+    "bin",
+    "module-config.js",
+    "occams-conf.json"
   ],
   "keywords": [
     "cli-app",
