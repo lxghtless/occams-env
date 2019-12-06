@@ -24,10 +24,14 @@ $ npm i occams-env
 
 `OCCAMS_ENV_IMPORT_ENVS`: Enables import of `process.env` keys into `occams-conf` with camel keys.
 
-```js
-const occamsEnv = require('occams-env');
+### Example
 
-occamsEnv.get('home');
+```js
+const oe = require('occams-env');
+
+oe.get('home');
+//=> /Users/awesome-dev
+oe.home;
 //=> /Users/awesome-dev
 ```
 
