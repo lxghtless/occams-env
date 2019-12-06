@@ -16,6 +16,7 @@
     "node": ">=8"
   },
   "scripts": {
+    "start": "node bin/cli.js",
     "test": "xo && nyc ava"
   },
   "files": [
@@ -29,6 +30,7 @@
     "app-env"
   ],
   "dependencies": {
+    "camelcase-keys": "^6.1.1",
     "dotenv": "^8.2.0",
     "meow": "^5.0.0",
     "occams-conf": "^3.0.0-4"
