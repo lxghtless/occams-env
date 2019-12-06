@@ -1,6 +1,6 @@
 {
   "name": "occams-env",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "A simple node app env &amp; settings module.",
   "license": "ISC",
   "repository": "lxghtless/occams-env",
