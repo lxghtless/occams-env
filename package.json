@@ -34,7 +34,8 @@
   "dependencies": {
     "camelcase-keys": "^6.1.1",
     "dotenv": "^8.2.0",
-    "meow": "^5.0.0"
+    "meow": "^5.0.0",
+    "occams-conf": "^3.0.0-4"
   },
   "devDependencies": {
     "ava": "^2.1.0",
