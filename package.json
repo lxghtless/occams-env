@@ -1,0 +1,51 @@
+{
+  "name": "occams-env",
+  "version": "0.0.0",
+  "description": "A simple node app env &amp; settings module.",
+  "license": "MIT",
+  "repository": "lxghtless/occams-env",
+  "author": {
+    "name": "",
+    "email": "lxghtl3ss@gmail.com",
+    "url": "github.com/lxghtless"
+  },
+  "bin": {
+    "oe": "bin/cli.js"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "xo && nyc ava"
+  },
+  "files": [
+    "src",
+    "bin"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "occams-conf",
+    "app-env"
+  ],
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "meow": "^5.0.0",
+    "occams-conf": "^3.0.0-4"
+  },
+  "devDependencies": {
+    "ava": "^2.1.0",
+    "nyc": "^14.1.1",
+    "xo": "^0.24.0"
+  },
+  "nyc": {
+    "all": true,
+    "include": [
+      "src/**/*.js"
+    ],
+    "reporter": [
+      "lcov",
+      "text"
+    ]
+  }
+}
