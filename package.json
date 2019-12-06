@@ -16,7 +16,7 @@
     "node": ">=8"
   },
   "scripts": {
-    "start": "node bin/cli.js",
+    "start": "node bin/cli.js '*'",
     "test": "xo && nyc ava"
   },
   "files": [
