@@ -2,10 +2,10 @@
   "name": "occams-env",
   "version": "0.0.0",
   "description": "A simple node app env &amp; settings module.",
-  "license": "MIT",
+  "license": "ISC",
   "repository": "lxghtless/occams-env",
   "author": {
-    "name": "",
+    "name": "lxghtless",
     "email": "lxghtl3ss@gmail.com",
     "url": "github.com/lxghtless"
   },
