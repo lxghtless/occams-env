@@ -5,12 +5,14 @@ const oe = require('../src');
 const ocUtil = require('../src/oc-util');
 
 const cli = meow(`
-	Usage
-	  $ occams-env [input]
+	$ oe --help
+    Usage
+	    Search for a key path in the oe configuration.
+	    $ oe [keyPath]
 
-	Examples
-	  $ occams-env home
-	  /Users/{CURRENT_USER_NAME}
+	    Examples
+	      $ oe home
+	      /Users/awesome-dev
 `);
 
 (() => {
